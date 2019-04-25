@@ -1,0 +1,97 @@
+nav {
+    background: #424249;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px 30px;
+    text-align: center;
+    color: #fffdfc;
+}
+
+
+.logo {
+    font-family: 'Righteous', cursive;
+    padding: 20px;
+    font-size: 60px;
+    margin-top: 15px;
+}
+.right {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #fffdfc;
+    display: flex;
+    justify-content: space-between;   
+}
+.budget, #total {
+    margin-right: 30px;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+.expense {
+    background: #efe8e1;
+    padding: 60px;
+    border-radius: 5px;
+   
+}
+.card-text {
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    margin-bottom: 30px;
+    
+}
+
+#list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+
+    background: #54d2e5;
+    border-radius: 5px;
+    padding: 40px
+}
+.name {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+.amount {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+#button {
+    font-family: 'Righteous', cursive;
+    background: #424249;
+    color: #fffdfc;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.name , p{
+    margin-bottom: 10px;
+}
+.name, input{
+    margin-left: 15px
+}
